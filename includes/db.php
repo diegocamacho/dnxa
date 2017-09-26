@@ -12,6 +12,6 @@ $usuario="epic_diego";
 $clave="camacho";
 $base="epic_dentisxa";
 //exit("ESTAMOS ACTUALIZANDO SU SITEMA, ¡VOLVEREMOS PRONTO!");
-$conexion = @mysql_connect ($servidor,$usuario,$clave) or die ("Ocurrió un error al conectarse.");
-@mysql_select_db($base) or die ("No BD ");
+$conexion = mysql_connect ($servidor,$usuario,$clave) or die ("Ocurrió un error al conectarse.");
+mysql_select_db($base) or die ("No BD ");
 ?>
