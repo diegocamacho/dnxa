@@ -1,5 +1,13 @@
 <?  session_start();
-	session_destroy(); ?>
+    session_destroy(); 
+
+    if($conexion):
+        echo "Conectado";
+    else:
+        echo "Error";
+    endif;
+    
+?>
 <!DOCTYPE html>
 <!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
