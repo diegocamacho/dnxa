@@ -7,7 +7,7 @@ $clave="root";
 $base="dentisxa2";*/
 
 /* Conexión en producción */
-$servidor="epicmedia.pro";
+$servidor="108.179.194.93";
 $usuario="epic_diego";
 $clave="camacho";
 $base="epic_dentisxa";
