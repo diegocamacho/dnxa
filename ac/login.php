@@ -1,8 +1,8 @@
 <?
 error_reporting(1);
 session_start();
-require '../includes/db.php';
-require '../includes/funciones.php';
+//require '../includes/db.php';
+//require '../includes/funciones.php';
 
 date_default_timezone_set ("America/Mexico_City");
 $fecha_hora=date("Y-m-d H:i:s");
@@ -13,8 +13,7 @@ $pass="1";
 //if(!$_POST['user']) exit("Debe escribir su usuario");
 //if(!$_POST['pass']) exit("Debe escribir su contraseña");
 
-	if(isset ($user]) && ($pass))
-	{
+
 
 		$usuario=mysql_real_escape_string($user);
 		$contrasena=contrasena(mysql_real_escape_string($pass));
@@ -38,5 +37,4 @@ $pass="1";
 			exit('Datos de acceso incorrectos, por favor intente nuevamente.');
 		}
 
-	}
 ?>
