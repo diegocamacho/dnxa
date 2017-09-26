@@ -1,0 +1,344 @@
+[22-Feb-2017 18:04:32 America/Mexico_City] PHP Warning:  Creating default object from empty value in /home/dentisxa/public_html/app/data/agenda.php on line 19
+[22-Feb-2017 18:09:39 America/Mexico_City] PHP Warning:  Creating default object from empty value in /home/dentisxa/public_html/app/data/agenda.php on line 19
+[22-Feb-2017 18:09:42 America/Mexico_City] PHP Warning:  Creating default object from empty value in /home/dentisxa/public_html/app/data/agenda.php on line 19
+[22-Feb-2017 18:10:28 America/Mexico_City] PHP Warning:  Creating default object from empty value in /home/dentisxa/public_html/app/data/agenda.php on line 19
+[22-Feb-2017 18:10:42 America/Mexico_City] PHP Warning:  Creating default object from empty value in /home/dentisxa/public_html/app/data/agenda.php on line 19
+[22-Feb-2017 18:11:16 America/Mexico_City] PHP Warning:  Creating default object from empty value in /home/dentisxa/public_html/app/data/agenda.php on line 19
+[22-Feb-2017 18:11:26 America/Mexico_City] PHP Warning:  Creating default object from empty value in /home/dentisxa/public_html/app/data/agenda.php on line 19
+[09-Mar-2017 14:13:07 America/Mexico_City] PHP Warning:  Creating default object from empty value in /home/dentisxa/public_html/app/data/agenda.php on line 20
+[09-Mar-2017 14:13:19 America/Mexico_City] PHP Warning:  Creating default object from empty value in /home/dentisxa/public_html/app/data/agenda.php on line 20
+[09-Mar-2017 14:13:22 America/Mexico_City] PHP Warning:  Creating default object from empty value in /home/dentisxa/public_html/app/data/agenda.php on line 20
+[13-Mar-2017 18:32:33 America/Mexico_City] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/dentisxa/public_html/app/data/evento.php on line 12
+[13-Mar-2017 18:32:33 America/Mexico_City] PHP Warning:  Creating default object from empty value in /home/dentisxa/public_html/app/data/evento.php on line 13
+[13-Mar-2017 18:32:42 America/Mexico_City] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/dentisxa/public_html/app/data/evento.php on line 12
+[13-Mar-2017 18:32:42 America/Mexico_City] PHP Warning:  Creating default object from empty value in /home/dentisxa/public_html/app/data/evento.php on line 13
+[14-Mar-2017 11:17:29 America/Mexico_City] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/dentisxa/public_html/app/data/evento.php on line 12
+[14-Mar-2017 11:17:29 America/Mexico_City] PHP Warning:  Creating default object from empty value in /home/dentisxa/public_html/app/data/evento.php on line 13
+[14-Mar-2017 11:18:50 America/Mexico_City] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/dentisxa/public_html/app/data/evento.php on line 12
+[14-Mar-2017 11:18:50 America/Mexico_City] PHP Warning:  Creating default object from empty value in /home/dentisxa/public_html/app/data/evento.php on line 13
+[14-Mar-2017 11:20:11 America/Mexico_City] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/dentisxa/public_html/app/data/evento.php on line 12
+[14-Mar-2017 11:20:11 America/Mexico_City] PHP Warning:  Creating default object from empty value in /home/dentisxa/public_html/app/data/evento.php on line 13
+[14-Mar-2017 11:20:44 America/Mexico_City] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/dentisxa/public_html/app/data/evento.php on line 12
+[14-Mar-2017 11:20:44 America/Mexico_City] PHP Warning:  Creating default object from empty value in /home/dentisxa/public_html/app/data/evento.php on line 13
+[14-Mar-2017 12:27:18 America/Mexico_City] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/dentisxa/public_html/app/data/evento.php on line 12
+[14-Mar-2017 12:27:18 America/Mexico_City] PHP Warning:  Creating default object from empty value in /home/dentisxa/public_html/app/data/evento.php on line 13
+[14-Mar-2017 12:27:23 America/Mexico_City] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/dentisxa/public_html/app/data/evento.php on line 12
+[14-Mar-2017 12:27:23 America/Mexico_City] PHP Warning:  Creating default object from empty value in /home/dentisxa/public_html/app/data/evento.php on line 13
+[14-Mar-2017 12:27:26 America/Mexico_City] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/dentisxa/public_html/app/data/evento.php on line 12
+[14-Mar-2017 12:27:26 America/Mexico_City] PHP Warning:  Creating default object from empty value in /home/dentisxa/public_html/app/data/evento.php on line 13
+[14-Mar-2017 12:27:28 America/Mexico_City] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/dentisxa/public_html/app/data/evento.php on line 12
+[14-Mar-2017 12:27:28 America/Mexico_City] PHP Warning:  Creating default object from empty value in /home/dentisxa/public_html/app/data/evento.php on line 13
+[14-Mar-2017 14:31:45 America/Mexico_City] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/dentisxa/public_html/app/data/evento.php on line 12
+[14-Mar-2017 14:31:45 America/Mexico_City] PHP Warning:  Creating default object from empty value in /home/dentisxa/public_html/app/data/evento.php on line 13
+[14-Mar-2017 14:32:18 America/Mexico_City] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home/dentisxa/public_html/app/data/evento.php on line 12
+[14-Mar-2017 14:32:18 America/Mexico_City] PHP Warning:  Creating default object from empty value in /home/dentisxa/public_html/app/data/evento.php on line 13
+[11-Apr-2017 14:59:43 America/Mexico_City] PHP Fatal error:  Call to undefined function msql_fetch_array() in /home/dentisxa/public_html/app/data/agenda.php on line 19
+[11-Apr-2017 14:59:44 America/Mexico_City] PHP Fatal error:  Call to undefined function msql_fetch_array() in /home/dentisxa/public_html/app/data/agenda.php on line 19
+[25-Apr-2017 13:26:31 America/Cancun] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 12
+[25-Apr-2017 13:26:31 America/Cancun] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 13
+[25-Apr-2017 13:26:31 America/Cancun] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 19
+[25-Apr-2017 13:26:31 America/Cancun] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 21
+[25-Apr-2017 13:31:19 America/Cancun] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 12
+[25-Apr-2017 13:31:19 America/Cancun] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 13
+[25-Apr-2017 13:31:19 America/Cancun] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 19
+[25-Apr-2017 13:31:19 America/Cancun] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 21
+[25-Apr-2017 13:31:43 America/Cancun] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 12
+[25-Apr-2017 13:31:43 America/Cancun] PHP Warning:  mysql_query(): Access denied for user 'd5j1g6l6'@'localhost' (using password: NO) in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 12
+[25-Apr-2017 13:31:43 America/Cancun] PHP Warning:  mysql_query(): A link to the server could not be established in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 12
+[25-Apr-2017 13:31:43 America/Cancun] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 13
+[25-Apr-2017 13:31:43 America/Cancun] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 19
+[25-Apr-2017 13:31:43 America/Cancun] PHP Warning:  mysql_query(): Access denied for user 'd5j1g6l6'@'localhost' (using password: NO) in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 19
+[25-Apr-2017 13:31:43 America/Cancun] PHP Warning:  mysql_query(): A link to the server could not be established in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 19
+[25-Apr-2017 13:31:43 America/Cancun] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 21
+[25-Apr-2017 13:33:43 America/Cancun] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 12
+[25-Apr-2017 13:33:43 America/Cancun] PHP Warning:  mysql_query(): Access denied for user 'd5j1g6l6'@'localhost' (using password: NO) in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 12
+[25-Apr-2017 13:33:43 America/Cancun] PHP Warning:  mysql_query(): A link to the server could not be established in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 12
+[25-Apr-2017 13:33:43 America/Cancun] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 13
+[25-Apr-2017 13:33:43 America/Cancun] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 20
+[25-Apr-2017 13:33:43 America/Cancun] PHP Warning:  mysql_query(): Access denied for user 'd5j1g6l6'@'localhost' (using password: NO) in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 20
+[25-Apr-2017 13:33:43 America/Cancun] PHP Warning:  mysql_query(): A link to the server could not be established in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 20
+[25-Apr-2017 13:33:43 America/Cancun] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 22
+[25-Apr-2017 13:35:07 America/Cancun] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 12
+[25-Apr-2017 13:35:07 America/Cancun] PHP Warning:  mysql_query(): Access denied for user 'd5j1g6l6'@'localhost' (using password: NO) in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 12
+[25-Apr-2017 13:35:07 America/Cancun] PHP Warning:  mysql_query(): A link to the server could not be established in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 12
+[25-Apr-2017 13:35:07 America/Cancun] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 13
+[25-Apr-2017 13:35:07 America/Cancun] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 20
+[25-Apr-2017 13:35:07 America/Cancun] PHP Warning:  mysql_query(): Access denied for user 'd5j1g6l6'@'localhost' (using password: NO) in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 20
+[25-Apr-2017 13:35:07 America/Cancun] PHP Warning:  mysql_query(): A link to the server could not be established in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 20
+[25-Apr-2017 13:35:07 America/Cancun] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 22
+[25-Apr-2017 13:36:30 America/Cancun] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 12
+[25-Apr-2017 13:36:30 America/Cancun] PHP Warning:  mysql_query(): Access denied for user 'd5j1g6l6'@'localhost' (using password: NO) in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 12
+[25-Apr-2017 13:36:30 America/Cancun] PHP Warning:  mysql_query(): A link to the server could not be established in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 12
+[25-Apr-2017 13:36:30 America/Cancun] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 13
+[25-Apr-2017 13:38:09 America/Cancun] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 12
+[25-Apr-2017 13:38:09 America/Cancun] PHP Warning:  mysql_query(): Access denied for user 'd5j1g6l6'@'localhost' (using password: NO) in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 12
+[25-Apr-2017 13:38:09 America/Cancun] PHP Warning:  mysql_query(): A link to the server could not be established in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 12
+[25-Apr-2017 13:38:09 America/Cancun] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 13
+[25-Apr-2017 13:39:02 America/Cancun] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 13
+[25-Apr-2017 13:39:02 America/Cancun] PHP Warning:  mysql_query(): Access denied for user 'd5j1g6l6'@'localhost' (using password: NO) in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 13
+[25-Apr-2017 13:39:02 America/Cancun] PHP Warning:  mysql_query(): A link to the server could not be established in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 13
+[25-Apr-2017 13:39:02 America/Cancun] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 14
+[25-Apr-2017 13:40:34 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 45
+[25-Apr-2017 15:09:36 America/Mexico_City] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 16
+[25-Apr-2017 15:09:36 America/Mexico_City] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home1/d5j1g6l6/public_html/adminus.mx/dentista/data/pacientes_tabla.php on line 17
+[22-May-2017 13:12:08 America/Mexico_City] PHP Warning:  Illegal string offset 'descripcion' in /home1/d5j1g6l6/dentisxa.net/app/data/agenda.php on line 19
+[22-May-2017 13:12:11 America/Mexico_City] PHP Warning:  Illegal string offset 'descripcion' in /home1/d5j1g6l6/dentisxa.net/app/data/agenda.php on line 19
+[22-May-2017 13:12:28 America/Mexico_City] PHP Warning:  Illegal string offset 'descripcion' in /home1/d5j1g6l6/dentisxa.net/app/data/agenda.php on line 19
+[22-May-2017 13:12:36 America/Mexico_City] PHP Warning:  Illegal string offset 'descripcion' in /home1/d5j1g6l6/dentisxa.net/app/data/agenda.php on line 19
+[22-May-2017 13:13:03 America/Mexico_City] PHP Warning:  Illegal string offset 'eventos.descripcion' in /home1/d5j1g6l6/dentisxa.net/app/data/agenda.php on line 19
+[22-May-2017 13:14:10 America/Mexico_City] PHP Warning:  Illegal string offset 'eventos.descripcion' in /home1/d5j1g6l6/dentisxa.net/app/data/agenda.php on line 19
+[22-May-2017 13:14:27 America/Mexico_City] PHP Warning:  Illegal string offset 'descripcion' in /home1/d5j1g6l6/dentisxa.net/app/data/agenda.php on line 19
+[22-May-2017 13:14:43 America/Mexico_City] PHP Warning:  Illegal string offset 'descripcion' in /home1/d5j1g6l6/dentisxa.net/app/data/agenda.php on line 19
+[22-May-2017 13:15:06 America/Mexico_City] PHP Warning:  Illegal string offset 'descripcion' in /home1/d5j1g6l6/dentisxa.net/app/data/agenda.php on line 19
+[22-May-2017 13:15:30 America/Mexico_City] PHP Warning:  Illegal string offset 'descripcion' in /home1/d5j1g6l6/dentisxa.net/app/data/agenda.php on line 19
+[22-May-2017 18:41:28 America/Mexico_City] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home1/d5j1g6l6/dentisxa.net/app/data/select_doctores.php on line 13
+[22-May-2017 18:41:37 America/Mexico_City] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home1/d5j1g6l6/dentisxa.net/app/data/select_doctores.php on line 13
+[22-May-2017 19:11:06 America/Mexico_City] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home1/d5j1g6l6/dentisxa.net/app/data/select_doctores.php on line 13
+[22-May-2017 19:15:14 America/Mexico_City] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home1/d5j1g6l6/dentisxa.net/app/data/evento_recurrente2.php on line 12
+[22-May-2017 19:15:22 America/Mexico_City] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home1/d5j1g6l6/dentisxa.net/app/data/evento_recurrente2.php on line 12
+[22-May-2017 19:17:19 America/Mexico_City] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home1/d5j1g6l6/dentisxa.net/app/data/evento_recurrente2.php on line 12
+[22-May-2017 19:18:01 America/Mexico_City] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home1/d5j1g6l6/dentisxa.net/app/data/evento_recurrente2.php on line 12
+[22-May-2017 19:18:53 America/Mexico_City] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home1/d5j1g6l6/dentisxa.net/app/data/evento_recurrente2.php on line 12
+[30-May-2017 18:42:38 America/Cancun] PHP Warning:  include(includes/db.php): failed to open stream: No such file or directory in /home1/d5j1g6l6/dentisxa.net/app/data/repara_eventos.php on line 2
+[30-May-2017 18:42:38 America/Cancun] PHP Warning:  include(includes/db.php): failed to open stream: No such file or directory in /home1/d5j1g6l6/dentisxa.net/app/data/repara_eventos.php on line 2
+[30-May-2017 18:42:38 America/Cancun] PHP Warning:  include(): Failed opening 'includes/db.php' for inclusion (include_path='.:/opt/php56/lib/php') in /home1/d5j1g6l6/dentisxa.net/app/data/repara_eventos.php on line 2
+[01-Jun-2017 19:40:59 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/includes/funciones.php on line 560
+[01-Jun-2017 19:41:24 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/includes/funciones.php on line 560
+[01-Jun-2017 19:41:32 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/includes/funciones.php on line 560
+[01-Jun-2017 19:41:46 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/includes/funciones.php on line 560
+[01-Jun-2017 19:43:55 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/includes/funciones.php on line 560
+[01-Jun-2017 19:43:59 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/includes/funciones.php on line 560
+[01-Jun-2017 19:45:05 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/includes/funciones.php on line 560
+[01-Jun-2017 19:48:22 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/includes/funciones.php on line 560
+[01-Jun-2017 19:48:31 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/includes/funciones.php on line 560
+[01-Jun-2017 19:48:48 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/includes/funciones.php on line 560
+[01-Jun-2017 19:48:55 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/includes/funciones.php on line 560
+[01-Jun-2017 19:49:14 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/includes/funciones.php on line 560
+[01-Jun-2017 19:49:23 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/includes/funciones.php on line 560
+[01-Jun-2017 19:49:47 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/includes/funciones.php on line 560
+[01-Jun-2017 19:49:55 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/includes/funciones.php on line 560
+[01-Jun-2017 19:50:27 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/includes/funciones.php on line 560
+[01-Jun-2017 19:50:31 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/includes/funciones.php on line 560
+[01-Jun-2017 19:50:56 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/includes/funciones.php on line 560
+[01-Jun-2017 19:51:26 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/includes/funciones.php on line 560
+[01-Jun-2017 19:51:29 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/includes/funciones.php on line 560
+[01-Jun-2017 19:51:44 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/includes/funciones.php on line 560
+[01-Jun-2017 19:52:13 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/includes/funciones.php on line 560
+[14-Jul-2017 18:44:13 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/prueba/data/pacientes_plan.php on line 35
+[14-Jul-2017 18:45:05 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/prueba/data/pacientes_plan.php on line 35
+[14-Jul-2017 18:45:37 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/prueba/data/pacientes_plan.php on line 35
+[14-Jul-2017 18:46:09 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/prueba/data/pacientes_plan.php on line 35
+[14-Jul-2017 18:46:20 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/prueba/data/pacientes_plan.php on line 36
+[14-Jul-2017 18:46:30 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/prueba/data/pacientes_plan.php on line 35
+[14-Jul-2017 18:46:50 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/prueba/data/pacientes_plan.php on line 36
+[01-Aug-2017 14:53:28 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/datos_cliente.php on line 14
+[24-Aug-2017 14:44:58 America/Mexico_City] PHP Warning:  Invalid argument supplied for foreach() in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 7
+[25-Aug-2017 12:12:34 America/Mexico_City] PHP Warning:  mysql_fetch_object(): supplied argument is not a valid MySQL result resource in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_diario.php on line 15
+[26-Aug-2017 09:13:10 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_diario.php on line 30
+[26-Aug-2017 09:13:10 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_diario.php on line 31
+[26-Aug-2017 09:13:10 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_diario.php on line 30
+[26-Aug-2017 09:13:10 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_diario.php on line 31
+[26-Aug-2017 09:13:10 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_diario.php on line 30
+[26-Aug-2017 09:13:10 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_diario.php on line 31
+[26-Aug-2017 09:13:10 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_diario.php on line 30
+[26-Aug-2017 09:13:10 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_diario.php on line 31
+[26-Aug-2017 09:13:10 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_diario.php on line 30
+[26-Aug-2017 09:13:10 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_diario.php on line 31
+[26-Aug-2017 09:13:10 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_diario.php on line 30
+[26-Aug-2017 09:13:10 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_diario.php on line 31
+[26-Aug-2017 09:13:10 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_diario.php on line 30
+[26-Aug-2017 09:13:10 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_diario.php on line 31
+[26-Aug-2017 09:13:10 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_diario.php on line 30
+[26-Aug-2017 09:13:10 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_diario.php on line 31
+[26-Aug-2017 09:13:10 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_diario.php on line 30
+[26-Aug-2017 09:13:10 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_diario.php on line 31
+[26-Aug-2017 09:13:10 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_diario.php on line 30
+[26-Aug-2017 09:13:10 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_diario.php on line 31
+[26-Aug-2017 09:13:10 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_diario.php on line 30
+[26-Aug-2017 09:13:10 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_diario.php on line 31
+[26-Aug-2017 09:13:10 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_diario.php on line 30
+[26-Aug-2017 09:13:10 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_diario.php on line 31
+[26-Aug-2017 09:13:10 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_diario.php on line 30
+[26-Aug-2017 09:13:10 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_diario.php on line 31
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 34
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 30
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 31
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 30
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 31
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 30
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 31
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 30
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 31
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 30
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 31
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 30
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 31
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 30
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 31
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 30
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 31
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 30
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 31
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 30
+[31-Aug-2017 18:21:31 America/Mexico_City] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home1/d5j1g6l6/dentisxa.net/app/data/dashboard_acumulado.php on line 31
