@@ -1,5 +1,5 @@
 <?
-
+error_reporting();
 include("../includes/db.php");
 include("../includes/funciones.php");
 include("../includes/session.php");
