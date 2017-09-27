@@ -7,11 +7,11 @@ require '../includes/funciones.php';
 date_default_timezone_set ("America/Mexico_City");
 $fecha_hora=date("Y-m-d H:i:s");
 
-//$user="diego@epicmedia.pro";
-//$pass="c4ca4238a0b923820dcc509a6f75849b";
+$user="diego@epicmedia.pro";
+$pass="1";
 
-if(!$_POST['user']) exit("Debe escribir su usuario");
-if(!$_POST['pass']) exit("Debe escribir su contraseña");
+//if(!$_POST['user']) exit("Debe escribir su usuario");
+//if(!$_POST['pass']) exit("Debe escribir su contraseña");
 
 
 
