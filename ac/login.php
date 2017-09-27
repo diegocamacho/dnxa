@@ -20,7 +20,8 @@ $pass="1";
 		// Admin
  		$sql = "SELECT * FROM usuarios WHERE email='$usuario' AND pass='$contrasena' AND activo='1' LIMIT 1";
 		$res = mysql_query($sql) or die ('Error en db');
-		$num_result = mysql_num_rows($res);
+		echo $num_result = mysql_num_rows($res);
+		/*
 		if($num_result != 0){
 			while ($row=mysql_fetch_object($res))
 				{
@@ -36,5 +37,5 @@ $pass="1";
 		}else{
 			exit('Datos de acceso incorrectos, por favor intente nuevamente.');
 		}
-
+		*/
 ?>
