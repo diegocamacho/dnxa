@@ -16,13 +16,3 @@ if (mysqli_connect_errno()) {
     printf("Falló la conexión: %s\n", mysqli_connect_error());
     exit();
 }
-
-
-
-/* Conexión en producción */
-
-//exit("ESTAMOS ACTUALIZANDO SU SITEMA, ¡VOLVEREMOS PRONTO!");
-/*
-$conexion = @mysql_connect ($servidor,$usuario,$clave) or die ("Ocurrió un error al conectarse.");
-@mysql_select_db($base) or die ("No BD ");
-?>
