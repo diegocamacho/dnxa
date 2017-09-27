@@ -1,1 +1,1 @@
-ola k ase?
+<? phpinfo();?>
