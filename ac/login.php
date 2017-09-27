@@ -8,15 +8,15 @@ date_default_timezone_set ("America/Mexico_City");
 $fecha_hora=date("Y-m-d H:i:s");
 
 $user="diego@epicmedia.pro";
-$pass="1";
+$pass="c4ca4238a0b923820dcc509a6f75849b";
 
 //if(!$_POST['user']) exit("Debe escribir su usuario");
 //if(!$_POST['pass']) exit("Debe escribir su contraseña");
 
 
 
-		$username=mysql_real_escape_string($user);
-		$password=contrasena(mysql_real_escape_string($pass));
+		$username=$user;
+		$password=$pass;
 		// Admin
 		 $sql = "SELECT * FROM usuarios WHERE email='$username' AND pass='$password' AND activo='1' LIMIT 1";
 		 $result = $conexion->query($sql);
