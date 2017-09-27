@@ -15,8 +15,8 @@ $pass="1";
 
 
 
-		$usuario=mysql_real_escape_string($user);
-		$contrasena=contrasena(mysql_real_escape_string($pass));
+		//$usuario=mysql_real_escape_string($user);
+		//$contrasena=contrasena(mysql_real_escape_string($pass));
 		// Admin
  		echo $sql = "SELECT * FROM usuarios WHERE email='$usuario' AND pass='$contrasena' AND activo='1' LIMIT 1";
 		//$res = mysql_query($sql) or die ('Error en db');
