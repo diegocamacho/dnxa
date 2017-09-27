@@ -2,13 +2,13 @@
 error_reporting(1);
 session_start();
 require '../includes/db.php';
-require '../includes/funciones.php';
+//require '../includes/funciones.php';
 
 date_default_timezone_set ("America/Mexico_City");
 $fecha_hora=date("Y-m-d H:i:s");
 
 $user="diego@epicmedia.pro";
-$pass="1";
+$pass="c4ca4238a0b923820dcc509a6f75849b";
 
 //if(!$_POST['user']) exit("Debe escribir su usuario");
 //if(!$_POST['pass']) exit("Debe escribir su contraseña");
@@ -20,8 +20,7 @@ $pass="1";
 		// Admin
  		echo $sql = "SELECT * FROM usuarios WHERE email='$user' AND pass='$pass' AND activo='1' LIMIT 1";
 		$res = mysql_query($sql) or die ('Error en db');
-		echo $num_result = mysql_num_rows($res);
-		/*
+		$num_result = mysql_num_rows($res);
 		if($num_result != 0){
 			while ($row=mysql_fetch_object($res))
 				{
@@ -37,5 +36,5 @@ $pass="1";
 		}else{
 			exit('Datos de acceso incorrectos, por favor intente nuevamente.');
 		}
-		*/
+		
 ?>
