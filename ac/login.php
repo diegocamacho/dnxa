@@ -15,10 +15,10 @@ if(!$_POST['pass']) exit("Debe escribir su contraseña");
 
 
 
-		$usuario=mysql_real_escape_string($user);
-		$contrasena=contrasena(mysql_real_escape_string($pass));
+		$username=mysql_real_escape_string($user);
+		$password=contrasena(mysql_real_escape_string($pass));
 		// Admin
-		 $sql = "SELECT * FROM usuarios WHERE email='$user' AND pass='$pass' AND activo='1' LIMIT 1";
+		 $sql = "SELECT * FROM usuarios WHERE email='$username' AND pass='$password' AND activo='1' LIMIT 1";
 		 $result = $conexion->query($sql);
 		 
 		 if ($result->num_rows > 0) { exit("Ocurrió un error,"); }
