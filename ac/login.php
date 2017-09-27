@@ -21,7 +21,7 @@ $pass="c4ca4238a0b923820dcc509a6f75849b";
 		 $sql = "SELECT * FROM usuarios WHERE email='$username' AND pass='$password' AND activo='1' LIMIT 1";
 		 $result = $conexion->query($sql);
 		 
-		 if ($result->num_rows > 0) { exit("Ocurrió un error,"); }
+		 if ($result->num_rows > 0) {  }
 
 		 $row = $result->fetch_array(MYSQLI_ASSOC);
 		 if (password_verify($password, $row['password'])) {
