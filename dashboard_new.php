@@ -5,16 +5,17 @@ if($_GET['Clinica']):
 	$consulta_grafica2="books_cuentas.id_empresa=$cli AND";
 endif;
 $sql="SELECT id_clinica AS id_empresa, clinica AS empresa FROM clinicas WHERE activo=1 $consulta_grafica";
-$q=mysql_query($sql);
+$q = mysqli_query($conexion, $sql, MYSQLI_USE_RESULT);
 $empresas = array();
-while($datos=mysql_fetch_object($q)):
-	$empresas[] = $datos;
+while($data = mysqli_fetch_object($q)):
+	$empresas[] = $data;
 endwhile;
+
 $sql="SELECT id_clinica AS id_empresa, clinica AS empresa FROM clinicas WHERE todos = 0 AND activo=1 $consulta_grafica";
-$q=mysql_query($sql);
+$q = mysqli_query($conexion, $sql, MYSQLI_USE_RESULT);
 $empresas2 = array();
-while($datos=mysql_fetch_object($q)):
-	$empresas2[] = $datos;
+while($data = mysqli_fetch_object($q)):
+	$empresas2[] = $data;
 endwhile;
 $valida_empresas=count($empresas);
 $cuenta=1;
@@ -30,8 +31,8 @@ for ($i = $mes; $i <= 12; $i++):
 	$sql="SELECT SUM(monto) AS total FROM books_gastos 
 	JOIN books_cuentas ON books_cuentas.id_cuenta=books_gastos.id_cuenta
 	WHERE books_gastos.activo=1 AND books_gastos.id_tipo_gasto !=1 AND $consulta_grafica2 DATE(fecha_gasto) BETWEEN '$fecha1' AND '$fecha2'";
-	$q=mysql_query($sql);
-	$ft=mysql_fetch_assoc($q);
+	$result=mysqli_query($conexion, $sql);
+	$ft = mysqli_fetch_assoc($result);
 	
 	if($ft['total']):
 		$total=$ft['total'];
@@ -54,8 +55,8 @@ for ($i = $mes; $i <= 12; $i++):
 	$sql="SELECT SUM(monto) AS total FROM books_ingresos 
 	JOIN books_cuentas ON books_cuentas.id_cuenta=books_ingresos.id_cuenta
 	WHERE books_ingresos.activo=1 AND books_ingresos.id_tipo_ingreso !=1 AND $consulta_grafica2 DATE(fecha_ingreso) BETWEEN '$fecha1' AND '$fecha2'";
-	$q=mysql_query($sql);
-	$ft=mysql_fetch_assoc($q);
+	$result=mysqli_query($conexion, $sql);
+	$ft = mysqli_fetch_assoc($result);
 	
 	if($ft['total']):
 		$total=$ft['total'];
@@ -94,11 +95,14 @@ endfor;
 							//POR CADA UNA DE LAS EMPRESAS HAY QUE SACAR SUS CUENTAS
 							$dinero_dia = 0;
 							$id_clinica = $empresa->id_empresa;
-							$q_cuentas = mysql_query("SELECT id_cuenta FROM books_cuentas WHERE id_empresa = '$id_clinica'");
-							while($ft = mysql_fetch_assoc($q_cuentas)){
+							$q_cuentas = mysqli_query($conexion,"SELECT id_cuenta FROM books_cuentas WHERE id_empresa = '$id_clinica'");
+							while($ft = mysqli_fetch_assoc($q_cuentas)){
 								$id_cuenta = $ft['id_cuenta'];
 							//SACAMOS LA LANA DEL DIA DE CADA UNA DE LAS EMPRESAS
-								$dinero_dia += mysql_result(mysql_query("SELECT SUM(monto) FROM books_ingresos WHERE fecha_ingreso = '$fecha_actual' AND id_cuenta = '$id_cuenta' AND activo = 1"), 0);
+								$q = mysqli_query($conexion,"SELECT SUM(monto) AS total_dinero FROM books_ingresos WHERE fecha_ingreso = '$fecha_actual' AND id_cuenta = '$id_cuenta' AND activo = 1");
+								$dt = mysqli_fetch_assoc($q);
+								$dinero_dia += $dt['total_dinero'];
+								
 							}
 							$dinero_total += $dinero_dia;
 						?>
@@ -157,11 +161,16 @@ endfor;
 							$final = date('Y-m-t');
 							$dinero_dia = 0;
 							$id_clinica = $empresa->id_empresa;
-							$q_cuentas = mysql_query("SELECT id_cuenta FROM books_cuentas WHERE id_empresa = '$id_clinica'");
-							while($ft = mysql_fetch_assoc($q_cuentas)){
+							$q_cuentas = mysqli_query($conexion,"SELECT id_cuenta FROM books_cuentas WHERE id_empresa = '$id_clinica'");
+							while($ft = mysqli_fetch_assoc($q_cuentas)){
 								$id_cuenta = $ft['id_cuenta'];
 							//SACAMOS LA LANA DEL DIA DE CADA UNA DE LAS EMPRESAS
-								$dinero_dia += mysql_result(mysql_query("SELECT SUM(monto) FROM books_ingresos WHERE fecha_ingreso >= '$inicial' AND fecha_ingreso <= '$final' AND id_cuenta = '$id_cuenta' AND activo = 1"), 0);
+								//$dinero_dia += mysql_result(mysql_query("SELECT SUM(monto) FROM books_ingresos WHERE fecha_ingreso >= '$inicial' AND fecha_ingreso <= '$final' AND id_cuenta = '$id_cuenta' AND activo = 1"), 0);
+								
+								
+								$q = mysqli_query($conexion,"SELECT SUM(monto) as total_dinero FROM books_ingresos WHERE fecha_ingreso >= '$inicial' AND fecha_ingreso <= '$final' AND id_cuenta = '$id_cuenta' AND activo = 1");
+								$dt = mysqli_fetch_assoc($q);
+								$dinero_dia += $dt['total_dinero'];
 								
 							}
 							$dinero_total += $dinero_dia;
@@ -270,9 +279,8 @@ endfor;
 			                        //unset($saldo);
 			                        $id_empresa=$empresa->id_empresa;
 
-			                        $sql="SELECT id_cuenta FROM books_cuentas WHERE id_empresa=$id_empresa AND activo=1 AND tipo_cuenta=2";
-			                        $q=mysql_query($sql);
-			                        while($ft=mysql_fetch_assoc($q)):
+			                        $q=mysqli_query($conexion,"SELECT id_cuenta FROM books_cuentas WHERE id_empresa=$id_empresa AND activo=1 AND tipo_cuenta=2");
+			                        while($ft=mysqli_fetch_assoc($q)):
 			                        	$id_cuenta=$ft['id_cuenta'];
 			                        	
 			                        	//movimientos
@@ -286,9 +294,9 @@ endfor;
 			                        
 			                        unset($total_ingresos);
 			                        unset($total_egresos);
-			                        $sql="SELECT id_cuenta FROM books_cuentas WHERE id_empresa=$id_empresa AND activo=1 AND tipo_cuenta=3";
-			                        $q=mysql_query($sql);
-			                        while($ft=mysql_fetch_assoc($q)):
+
+			                        $q=mysqli_query($conexion,"SELECT id_cuenta FROM books_cuentas WHERE id_empresa=$id_empresa AND activo=1 AND tipo_cuenta=3");
+			                        while($ft=mysqli_fetch_assoc($q)):
 			                        	$id_cuenta=$ft['id_cuenta'];
 			                        	
 			                        	//movimientos

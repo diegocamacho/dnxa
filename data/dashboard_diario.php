@@ -10,10 +10,10 @@ if($_GET['Clinica']):
 	$consulta_grafica2="books_cuentas.id_empresa=$cli AND";
 endif;
 $sql="SELECT id_clinica AS id_empresa, clinica AS empresa FROM clinicas WHERE activo=1 AND todos=0 $consulta_grafica";
-$q=mysql_query($sql);
+$q = mysqli_query($conexion, $sql, MYSQLI_USE_RESULT);
 $empresas = array();
-while($datos=mysql_fetch_object($q)):
-	$empresas[] = $datos;
+while($data = mysqli_fetch_object($q)):
+	$empresas[] = $data;
 endwhile;
 ?>
 <div class="row">
@@ -25,16 +25,16 @@ endwhile;
 							$pacientes_nuevos = 0;
 							$id_clinica = $empresa->id_empresa;
 							//SACAMOS LOS PACIENTES QUE FUERON ATENDIDOS EN LA CLINICA ESE DIA 
-							$pacientes_clinica = mysql_query("SELECT DISTINCT(id_cita),id_paciente FROM citas 
+							$pacientes_clinica = mysqli_query($conexion,"SELECT DISTINCT(id_cita),id_paciente FROM citas 
 															WHERE id_clinica = '$id_clinica' AND DATE(fecha_hora) = '$fecha_actual' AND citas.tipo=1 AND citas.activo=1");
 							
-							while($paciente = mysql_fetch_assoc($pacientes_clinica)){
+							while($paciente = mysqli_fetch_assoc($pacientes_clinica)){
 								$id_cita = $paciente['id_cita'];
 								$id_paciente = $paciente['id_paciente'];
-								$check = mysql_num_rows(mysql_query("SELECT id_consulta FROM consultas WHERE id_cita = '$id_cita'"));
+								$check = mysqli_num_rows(mysqli_query($conexion,"SELECT id_consulta FROM consultas WHERE id_cita = '$id_cita'"));
 									if($check == 1){
 										$pacientes_atendidos++;
-										$check2 = mysql_num_rows(mysql_query("SELECT id_consulta FROM consultas WHERE id_paciente = '$id_paciente'"));
+										$check2 = mysqli_num_rows(mysqli_query($conexion,"SELECT id_consulta FROM consultas WHERE id_paciente = '$id_paciente'"));
 										if($check2 == 1){
 											$pacientes_nuevos++;
 										}

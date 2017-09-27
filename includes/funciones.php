@@ -434,11 +434,14 @@ function fnum($num,$sinDecimales = false, $sinNumberFormat = false){
 
 }
 function tipo_usuario($id_tipo_usuario){
+	global $conexion;
 	$sql="SELECT tipo FROM tipo_usuario WHERE id_tipo_usuario=$id_tipo_usuario";
-	$q=mysql_query($sql);
-	$ft=mysql_fetch_assoc($q);
-	$tipo=$ft['tipo'];
-	return $tipo;
+	$result=mysqli_query($conexion, $sql);
+	$ft = mysqli_fetch_assoc($result);
+	return $dt['tipo'];
+	
+	
+	
 }
 
 function acentos($cadena){
@@ -562,9 +565,8 @@ function dameClinica($id_clinica){
 	global $conexion;
 	
 	$sql="SELECT clinica FROM clinicas WHERE id_clinica=$id_clinica";
-	$q=mysql_query($sql);
-	$ft=mysql_fetch_assoc($q);
-	
+	$result=mysqli_query($conexion, $sql);
+	$ft = mysqli_fetch_assoc($result);
 	return $ft['clinica'];
 }
 
@@ -572,9 +574,8 @@ function dameDoctor($id_doctor){
 	global $conexion;
 	if($id_doctor){
 		$sql="SELECT nombre FROM doctores WHERE id_doctor=$id_doctor";
-		$q=mysql_query($sql);
-		$ft=mysql_fetch_assoc($q);
-		
+		$result=mysqli_query($conexion, $sql);
+		$ft = mysqli_fetch_assoc($result);
 		return $ft['nombre'];
 	}else{
 		return '-';
@@ -585,9 +586,8 @@ function dameUsuario($id_usuario){
 	global $conexion;
 	
 	$sql="SELECT nombre FROM usuarios WHERE id_usuario=$id_usuario";
-	$q=mysql_query($sql);
-	$ft=mysql_fetch_assoc($q);
-	
+	$result=mysqli_query($conexion, $sql);
+	$ft = mysqli_fetch_assoc($result);
 	return $ft['nombre'];
 }
 
@@ -597,10 +597,10 @@ function ultimaCita($id_paciente){
 	$sql="SELECT clinica, fecha_hora FROM citas 
 	JOIN clinicas ON clinicas.id_clinica=citas.id_clinica
 	WHERE id_paciente=$id_paciente ORDER BY id_cita DESC LIMIT 1";
-	$q=mysql_query($sql);
-	$ft=mysql_fetch_assoc($q);
-	$val=mysql_num_rows($q);
-	if($val):
+	$result=mysqli_query($conexion, $sql);
+	$ft = mysqli_fetch_assoc($result);
+	$val= mysqli_num_rows($result);
+	if($ft):
 		return $ft['clinica']." ".devuelveFechaHora($ft['fecha_hora']);
 	else:
 		return "N/A";
@@ -625,48 +625,47 @@ function dameTipoEmpresa($tipo){
 	endif;
 }
 function dameIngresos($id_cuenta){
-	
+	global $conexion;
 	$sql="SELECT SUM(monto) AS total_ingresos FROM books_ingresos WHERE id_cuenta=$id_cuenta AND activo=1";
-	$q=mysql_query($sql);
-	$dt=mysql_fetch_assoc($q);
-	return $dt['total_ingresos'];
+	$result=mysqli_query($conexion, $sql);
+	$ft = mysqli_fetch_assoc($result);
+	return $ft['total_ingresos'];
 }
 function dameEgresoso($id_cuenta){
-	
+	global $conexion;
 	$sql="SELECT SUM(monto) AS total_egresos FROM books_gastos WHERE id_cuenta=$id_cuenta AND activo=1";
-	$q=mysql_query($sql);
-	$dt=mysql_fetch_assoc($q);
-	return $dt['total_egresos'];
+	$result=mysqli_query($conexion, $sql);
+	$ft = mysqli_fetch_assoc($result);
+	return $ft['total_egresos'];
 }
 function datosCuenta($id_cuenta){
-	
+	global $conexion;
 	$sql="SELECT clinica,alias FROM books_cuentas 
 	JOIN clinicas ON clinicas.id_clinica=books_cuentas.id_empresa
 	WHERE id_cuenta=$id_cuenta";
-	$q=mysql_query($sql);
-	$dt=mysql_fetch_assoc($q);
-	return $dt['clinica']." ".$dt['alias'];
+	$result=mysqli_query($conexion, $sql);
+	$ft = mysqli_fetch_assoc($result);
+	return $ft['clinica']." ".$ft['alias'];
 	
 }
 function metodoPago($id_metodo_pago){
-	
+	global $conexion;
 	$sql="SELECT metodo_pago FROM books_metodo_pago 
 	WHERE id_metodo_pago=$id_metodo_pago";
-	$q=mysql_query($sql);
-	$dt=mysql_fetch_assoc($q);
-	return $dt['metodo_pago'];
+	$result=mysqli_query($conexion, $sql);
+	$ft = mysqli_fetch_assoc($result);
+	return $ft['metodo_pago'];
 	
 }
 function clavemetodoPago($id_metodo_pago){
-	
+	global $conexion;
 	$sql="SELECT clave FROM books_metodo_pago 
 	WHERE id_metodo_pago=$id_metodo_pago";
-	$q=mysql_query($sql);
-	$dt=mysql_fetch_assoc($q);
-	return $dt['clave'];
+	$result=mysqli_query($conexion, $sql);
+	$ft = mysqli_fetch_assoc($result);
+	return $ft['clave'];
 	
 }
-
 function ultimoDia($ano,$mes) {
   return date("d",(mktime(0,0,0,$mes+1,1,$ano)-1));
 }
@@ -723,17 +722,20 @@ function DiaSemana($dia){
 
 }
 function dameCitas($id_especialista_lab) {
+	global $conexion;
 	$sql="SELECT * FROM consultas WHERE id_especialista_lab=$id_especialista_lab AND activo=1";
-	$q=mysql_query($sql);
-	$total=mysql_num_rows($q);
+	$result=mysqli_query($conexion, $sql);
+	$ft = mysqli_fetch_assoc($result);
+	$total = mysqli_num_rows($result);
 	
 	return $total;
 }
 
 function dameMontoConsulta($id_consulta) {
+	global $conexion;
 	$sql="SELECT SUM(cantidad*precio) AS total FROM consultas_tratamientos WHERE id_consulta=$id_consulta";
-	$q=mysql_query($sql);
-	$ft=mysql_fetch_assoc($q);
+	$result=mysqli_query($conexion, $sql);
+	$ft = mysqli_fetch_assoc($result);
 	$total=$ft['total'];
 	
 	return $total;
