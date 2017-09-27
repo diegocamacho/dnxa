@@ -18,9 +18,9 @@ $pass="1";
 		//$usuario=mysql_real_escape_string($user);
 		//$contrasena=contrasena(mysql_real_escape_string($pass));
 		// Admin
- 		echo $sql = "SELECT * FROM usuarios WHERE email='$usuario' AND pass='$contrasena' AND activo='1' LIMIT 1";
-		//$res = mysql_query($sql) or die ('Error en db');
-		//echo $num_result = mysql_num_rows($res);
+ 		echo $sql = "SELECT * FROM usuarios WHERE email='$user' AND pass='$pass' AND activo='1' LIMIT 1";
+		$res = mysql_query($sql) or die ('Error en db');
+		echo $num_result = mysql_num_rows($res);
 		/*
 		if($num_result != 0){
 			while ($row=mysql_fetch_object($res))
