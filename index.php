@@ -8,14 +8,14 @@ if($s_tipo==3):
 	//Hay que poner algo para identificar el caledario de todos
 	//Clinicas especiales
 	$sql="SELECT * FROM clinicas WHERE todos=1 AND tipo=1 ORDER BY clinica ASC";
-	$q=mysql_query($sql);
+	$q=$conexion->query($sql);
 	while($datos=mysql_fetch_object($q)):
 		$clinicas2[] = $datos;
 	endwhile;
 endif;
 //Clínicas
 $sql="SELECT * FROM clinicas WHERE tipo=1 $consulta ORDER BY clinica ASC";
-$q=mysql_query($sql);
+$q=$conexion->query($sql);
 $clinicas = array();
 while($datos=mysql_fetch_object($q)):
 	$clinicas[] = $datos;
@@ -26,7 +26,7 @@ $valida_clinicas=count($clinicas);
 $valida_especial=count($clinicas2);
 
 $sql="SELECT * FROM books_metodo_pago WHERE activo=1 ORDER BY metodo_pago ASC";
-$q=mysql_query($sql);
+$q=$conexion->query($sql);
 while($datos=mysql_fetch_object($q)):
 	$metodos[] = $datos;
 endwhile;
@@ -48,7 +48,7 @@ Version: 4.7.1
         <title>Dentixa CRM</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1" name="viewport" />
-        <meta content="Preview page of Metronic Admin Theme #3 for dashboard & statistics" name="description" />
+        <meta content="dentisxa" name="description" />
         <meta content="" name="author" />
         <!-- BEGIN GLOBAL MANDATORY STYLES -->
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
