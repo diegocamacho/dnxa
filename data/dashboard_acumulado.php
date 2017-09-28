@@ -2,7 +2,7 @@
 error_reporting();
 include("../includes/db.php");
 include("../includes/funciones.php");
-include("../includes/session.php");
+//include("../includes/session.php");
 
 if($_GET['Clinica']):
 	$cli=$_GET['Clinica'];
@@ -25,7 +25,7 @@ endwhile;
 							$pacientes_nuevos = 0;
 							$id_clinica = $empresa->id_empresa;
 							//SACAMOS LOS PACIENTES QUE FUERON ATENDIDOS EN LA CLINICA ESE DIA 
-							$pacientes_clinica = mysqli_query($conexion,"SELECT DISTINCT(id_cita),id_paciente FROM citas WHERE id_clinica = '$id_clinica' AND DATE(fecha_hora) >= '$inicial' AND DATE(fecha_hora) <= '$final'  AND citas.tipo=1 AND citas.activo=1 AND citas.atendida = 1");
+							$pacientes_clinica = mysqli_query($conexion,"SELECT DISTINCT(id_cita),id_paciente FROM citas WHERE id_clinica = '$id_clinica' AND DATE(fecha_hora) >= '$inicial' AND DATE(fecha_hora) <= '$final'  AND citas.tipo=1 AND citas.activo=1 AND citas.atendida = 1 LIMIT 3");
 							//print_r($pacientes_clinica);
 							$pacientes_atendidos = mysqli_num_rows($pacientes_clinica);
 							while($paciente = mysqli_fetch_assoc($pacientes_clinica)){
