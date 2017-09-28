@@ -1,6 +1,6 @@
 <?
 error_reporting();
-set_time_limit(3600);
+//set_time_limit(3600);
 include("../includes/db.php");
 include("../includes/funciones.php");
 //include("../includes/session.php");
