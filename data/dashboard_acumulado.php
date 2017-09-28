@@ -29,7 +29,7 @@ endwhile;
 							$pacientes_clinica = mysqli_query($conexion,"SELECT DISTINCT(id_cita),id_paciente FROM citas WHERE id_clinica = '$id_clinica' AND DATE(fecha_hora) >= '$inicial' AND DATE(fecha_hora) <= '$final'  AND citas.tipo=1 AND citas.activo=1 AND citas.atendida = 1 ");
 							//print_r($pacientes_clinica);
 							//file_put_contents(date("HH_MM_SS").rand().".txt", 'primer paso');
-							$pacientes_atendidos = mysqli_num_rows($pacientes_clinica);
+							
 							while($paciente = mysqli_fetch_assoc($pacientes_clinica)){
 								$id_cita = $paciente['id_cita'];
 								$id_paciente = $paciente['id_paciente'];
@@ -44,6 +44,7 @@ endwhile;
 									}
 								//file_put_contents(date("HH_MM_SS").rand().".txt", 'segundo paso');
 							}
+							$pacientes_atendidos = mysqli_num_rows($pacientes_clinica);
 							$nuevos_total += $pacientes_nuevos;
 							$atendidos_total += $pacientes_atendidos;
 						?>
